@@ -1,7 +1,10 @@
 body{
     background-image: url(R\ \(1\).jfif);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(130, 243, 77);
+}
+h1{
     font-family: cursive;
-    color: aliceblue;
 }
 .box{
     width: 100px;
@@ -13,6 +16,7 @@ body{
     transition: width 4s, height 6s, border-radius 3s,border 4s;
     overflow: hidden;
     cursor: pointer;
+    color: rgb(161, 226, 77);
 }
 .box:hover{
     width: 300px;
@@ -51,3 +55,4 @@ a{
         box-shadow: 0 50px 50px rgb(0, 0, 0, 0.1);
     }
 }
+
