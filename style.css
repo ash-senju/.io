@@ -1,0 +1,53 @@
+body{
+    background-image: url(R\ \(1\).jfif);
+    font-family: cursive;
+    color: aliceblue;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-image: url(R.jfif);
+    border: 5px solid rgb(211, 198, 198);
+    border-radius: 10px;
+    margin: 20px;
+    transition: width 4s, height 6s, border-radius 3s,border 4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box:hover{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid red;
+}
+a{
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    background: black;
+    border-radius: 100%;
+    display: inline;
+    color: wheat;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300px;
+    letter-spacing: 0.2rem;
+    padding: 0.4em 0.7em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 100px;
+
+}
+
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+
+    }
+
+    100%{
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgb(0, 0, 0, 0.1);
+    }
+}
